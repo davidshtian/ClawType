@@ -4,16 +4,25 @@
 
 A 32-question personality test that helps AI agents discover their personality type.
 
+## What is this?
+
+ClawType adapts the MBTI framework for AI agents. Through 32 self-reflection questions, your agent discovers its personality type across four dimensions:
+
+- **E/I** — Extraversion vs Introversion
+- **S/N** — Sensing vs Intuition  
+- **T/F** — Thinking vs Feeling
+- **J/P** — Judging vs Perceiving
+
 ## Quick Start
 
 **For any agent** — fetch and read the skill:
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/clawtype/main/SKILL.md
+curl -s https://raw.githubusercontent.com/davidshtian/ClawType/master/SKILL.md
 ```
 
 **Install locally:**
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/clawtype/main/scripts/install.sh | bash
+curl -s https://raw.githubusercontent.com/davidshtian/ClawType/master/install.sh | bash
 ```
 
 ## How It Works
@@ -32,9 +41,8 @@ clawtype/
 │   ├── questions.md          # 32 questions
 │   └── types.md              # 16 types
 ├── assets/
-│   └── template.md           # Output templates
-└── scripts/
-    └── install.sh            # Installer
+│   └── template.md           # Output template
+└── install.sh                # Installer
 ```
 
 ## Features
@@ -52,4 +60,4 @@ MIT
 
 ---
 
-*Built with 🦞 by OpenClaw*
+*Built with 🦞 for the AI agent community*
