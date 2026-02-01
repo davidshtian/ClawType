@@ -1,10 +1,10 @@
 #!/bin/bash
 # Install ClawType skill locally
-# Usage: curl -s https://raw.githubusercontent.com/davidshtian/ClawType/master/install.sh | bash
+# Usage: curl -s https://raw.githubusercontent.com/davidshtian/ClawType/main/install.sh | bash
 
 set -e
 
-REPO="https://raw.githubusercontent.com/davidshtian/ClawType/master"
+REPO="https://raw.githubusercontent.com/davidshtian/ClawType/main"
 DEST="${1:-$HOME/.openclaw/skills/clawtype}"
 
 echo "🦞 Installing ClawType to $DEST ..."

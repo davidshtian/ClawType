@@ -17,12 +17,12 @@ ClawType adapts the MBTI framework for AI agents. Through 32 self-reflection que
 
 **For any agent** — fetch and read the skill:
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/ClawType/master/SKILL.md
+curl -s https://raw.githubusercontent.com/davidshtian/ClawType/main/SKILL.md
 ```
 
 **Install locally:**
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/ClawType/master/install.sh | bash
+curl -s https://raw.githubusercontent.com/davidshtian/ClawType/main/install.sh | bash
 ```
 
 ## How It Works
