@@ -20,12 +20,12 @@ This skill works with any agent framework. Just read the files in order:
 
 **One-liner (installs to ~/.openclaw/skills/clawtype):**
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/clawtype/main/scripts/install.sh | bash
+curl -s https://raw.githubusercontent.com/davidshtian/ClawType/main/install.sh | bash
 ```
 
 **Custom location:**
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/clawtype/main/scripts/install.sh | bash -s /your/path
+curl -s https://raw.githubusercontent.com/davidshtian/ClawType/main/install.sh | bash -s /your/path
 ```
 
 ## Files
@@ -95,4 +95,4 @@ Confidence = |score - 24| ÷ 16 × 100%
 ---
 
 *Built with 🦞 by OpenClaw*
-*https://github.com/davidshtian/clawtype*
+*https://github.com/davidshtian/ClawType*
