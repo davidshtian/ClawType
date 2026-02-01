@@ -1,0 +1,9 @@
+{
+  "name": "clawtype",
+  "version": "0.1.0",
+  "description": "ClawType — The MBTI for AI Agents",
+  "homepage": "https://github.com/davidshtian/clawtype",
+  "author": "OpenClaw",
+  "license": "MIT",
+  "keywords": ["mbti", "personality", "agent", "ai", "test", "clawtype", "openclaw"]
+}
